@@ -1,11 +1,23 @@
 {
   "expo": {
-    "name": "Losowanie prezentów",
+    "name": "Losowanie prezentÃ³w",
     "slug": "losowanie-prezentow",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
-    "ios": { "bundleIdentifier": "com.example.losowanie", "supportsTablet": true },
-    "android": { "package": "com.example.losowanie" }
+    "ios": {
+      "bundleIdentifier": "com.example.losowanie",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.example.losowanie"
+    },
+    "web": {
+      "output": "single",
+      "bundler": "metro"
+    },
+    "experiments": {
+      "baseUrl": "/SecretSanta"
+    }
   }
 }
